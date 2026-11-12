@@ -1,6 +1,9 @@
 #include "ft_printf.h"
+#include <stdio.h>
 
 int main()
 {
-	ft_printf("this is a %c%c%c%c\n", 't', 'e', 's', 't');
+	// printf("%d\n", ft_printf("%x\n", -1));
+	ft_printf("%u\n", "null");
+	printf("%u\n", "null");
 }
